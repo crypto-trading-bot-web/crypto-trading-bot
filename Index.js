@@ -325,8 +325,8 @@ app.get('/', (req, res) => {
         <div class="footer">
           <p style="font-size: 1.1em; color: #ffd700;">?? ${new Date().toLocaleString('id-ID')}</p>
           <p style="margin-top: 12px;">?? UT Bot (${CONFIG.UTBOT.KEY_VALUE}) + Supertrend (${CONFIG.SUPERTREND.PERIOD},${CONFIG.SUPERTREND.MULTIPLIER}) + Volume Filter</p>
-          <p style="margin-top: 8px;">? Professional Futures Trading Strategy • 24/7 Operation</p>
-          <p style="margin-top: 8px; color: #00ff00;">??? Self-Ping: 3min • Heartbeat: 1min • UptimeRobot: 5min</p>
+          <p style="margin-top: 8px;">? Professional Futures Trading Strategy Â• 24/7 Operation</p>
+          <p style="margin-top: 8px; color: #00ff00;">??? Self-Ping: 3min Â• Heartbeat: 1min Â• UptimeRobot: 5min</p>
         </div>
       </div>
     </body>
@@ -701,7 +701,7 @@ ${signal === 'BUY' ? '?? SL below recent low' : '?? SL above recent high'}
 ? <i>All indicators aligned + Volume confirmed!</i>
 ?? <i>Professional grade signal - Ready to trade!</i>
 
-<i>?? Match TradingView • Optimized for Futures Trading</i>
+<i>?? Match TradingView Â• Optimized for Futures Trading</i>
       `.trim();
 
       await sendTelegramMessage(message);
@@ -774,20 +774,20 @@ async function main() {
 ?? Cooldown: <b>${CONFIG.ALERT_COOLDOWN / 60000}m</b>
 
 ?? <b>Professional Features:</b>
-• UT Bot + Supertrend (100% Match TV)
-• Volume Filter (${CONFIG.FUTURES.MIN_VOLUME_MULTIPLIER}x requirement)
-• Min R:R ${CONFIG.FUTURES.MIN_RISK_REWARD} filter
-• Risk Management (Max ${CONFIG.FUTURES.MAX_RISK_PERCENT}% per trade)
-• Position sizing calculator
-• Leverage recommendation (${CONFIG.FUTURES.LEVERAGE_RECOMMENDATION}x)
+Â• UT Bot + Supertrend (100% Match TV)
+Â• Volume Filter (${CONFIG.FUTURES.MIN_VOLUME_MULTIPLIER}x requirement)
+Â• Min R:R ${CONFIG.FUTURES.MIN_RISK_REWARD} filter
+Â• Risk Management (Max ${CONFIG.FUTURES.MAX_RISK_PERCENT}% per trade)
+Â• Position sizing calculator
+Â• Leverage recommendation (${CONFIG.FUTURES.LEVERAGE_RECOMMENDATION}x)
 
 ??? <b>Always-On System:</b>
-• Self-ping: Every 3 minutes
-• Heartbeat: Every 1 minute
-• UptimeRobot: 5 min (FREE tier)
+Â• Self-ping: Every 3 minutes
+Â• Heartbeat: Every 1 minute
+Â• UptimeRobot: 5 min (FREE tier)
 
 ? <b>Bot akan jalan 24/7 bahkan saat PC mati!</b>
-?? <b>100% Free • No VPS needed</b>
+?? <b>100% Free Â• No VPS needed</b>
 
 <i>?? Ready for professional Futures trading!</i>
     `.trim());
