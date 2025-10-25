@@ -1,0 +1,17 @@
+{
+  "name": "crypto-futures-bot",
+  "version": "3.0.0",
+  "description": "Professional Futures Trading Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^0.27.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
